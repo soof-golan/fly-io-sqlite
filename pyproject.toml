@@ -1,0 +1,10 @@
+[project]
+name = "fly-io"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "fastapi[all]>=0.112.2",
+    "aiosqlite>=0.20.0",
+]
